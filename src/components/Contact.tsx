@@ -80,8 +80,8 @@ export default function Contact() {
                 </div>
                 <div>
                   <h3 className="text-xl font-bold text-gray-900 mb-2">Điện Thoại</h3>
-                  <p className="text-gray-600">+84 123 456 789</p>
-                  <p className="text-gray-600">+84 987 654 321</p>
+                  <p className="text-gray-600">+84 0356481405</p>
+                  <p className="text-gray-600">+84 0125789641</p>
                 </div>
               </div>
             </div>
@@ -93,8 +93,8 @@ export default function Contact() {
                 </div>
                 <div>
                   <h3 className="text-xl font-bold text-gray-900 mb-2">Email</h3>
-                  <p className="text-gray-600">info@mhbtour.com</p>
-                  <p className="text-gray-600">booking@mhbtour.com</p>
+                  <p className="text-gray-600">QuanHao@mhbtour.com</p>
+                  <p className="text-gray-600">DuyTu@mhbtour.com</p>
                 </div>
               </div>
             </div>
@@ -106,21 +106,15 @@ export default function Contact() {
                 </div>
                 <div>
                   <h3 className="text-xl font-bold text-gray-900 mb-2">Địa Chỉ</h3>
-                  <p className="text-gray-600">123 Đường Nguyễn Huệ, Quận 1</p>
-                  <p className="text-gray-600">Thành phố Hồ Chí Minh, Việt Nam</p>
+                  <p className="text-gray-600">55 Giải Phóng , Hai Bà Trưng</p>
+                  <p className="text-gray-600">Thành phố Hà Nội, Việt Nam</p>
                 </div>
               </div>
             </div>
 
             <div className="rounded-2xl overflow-hidden shadow-lg h-64">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.4976578994716!2d106.70298931533423!3d10.776530162088324!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f4b3330bcc9%3A0xb76a5fa019b7aa04!2zVHLhuqduIEjGsG5nIMSQ4bqhbw!5e0!3m2!1svi!2s!4v1234567890123!5m2!1svi!2s"
-                width="100%"
-                height="100%"
-                style={{ border: 0 }}
-                allowFullScreen
-                loading="lazy"
-              ></iframe>
+              
+             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d664.8171395945969!2d105.84350316737968!3d21.00295531066523!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ac773026b415%3A0x499b8b613889f78a!2zVHLGsOG7nW5nIMSQ4bqhaSBI4buNYyBYw6J5IEThu7FuZyBIw6AgTuG7mWkgLSBIVUNF!5e0!3m2!1svi!2s!4v1763831230753!5m2!1svi!2s" width="600" height="450" style={{ border: 0 }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
             </div>
           </div>
         </div>

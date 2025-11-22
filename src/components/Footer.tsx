@@ -70,15 +70,15 @@ export default function Footer() {
             <ul className="space-y-3 text-gray-400">
               <li className="flex items-start gap-2">
                 <MapPin size={20} className="flex-shrink-0 mt-1 text-[#00B3FF]" />
-                <span>123 Nguyễn Huệ, Q.1, TP.HCM</span>
+                <span>55 Giải Phóng, Hai Bà Trưng</span>
               </li>
               <li className="flex items-center gap-2">
                 <Phone size={20} className="text-[#00B3FF]" />
-                <span>+84 123 456 789</span>
+                <span>+84356481405</span>
               </li>
               <li className="flex items-center gap-2">
                 <Mail size={20} className="text-[#00B3FF]" />
-                <span>info@mhbtour.com</span>
+                <span>TODUYTU@gmail.com</span>
               </li>
             </ul>
           </div>
