@@ -16,9 +16,9 @@ export default function Contact() {
 
   return (
     <section id="contact" className="py-20 bg-[#F5F8FF]">
-      <div className="container mx-auto px-6">
+      <div className="container mx-auto px-4 sm:px-6">
         <div className="text-center mb-16 reveal">
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4" style={{ fontFamily: 'Poppins, sans-serif' }}>
+          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4 font-['Poppins',sans-serif]">
             Liên Hệ Với Chúng Tôi
           </h2>
           <p className="text-gray-600 text-lg max-w-2xl mx-auto">
@@ -26,9 +26,9 @@ export default function Contact() {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-12 max-w-6xl mx-auto">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 max-w-6xl mx-auto">
           <div className="reveal">
-            <form onSubmit={handleSubmit} className="bg-white p-8 rounded-2xl shadow-lg">
+            <form onSubmit={handleSubmit} className="bg-white p-6 sm:p-8 rounded-2xl shadow-lg">
               <div className="mb-6">
                 <label className="block text-gray-700 font-semibold mb-2">Họ và Tên</label>
                 <input
@@ -72,9 +72,9 @@ export default function Contact() {
             </form>
           </div>
 
-          <div className="reveal space-y-8">
+          <div className="reveal space-y-6">
             <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow">
-              <div className="flex items-start gap-4">
+              <div className="flex flex-col sm:flex-row items-start gap-4">
                 <div className="w-12 h-12 bg-gradient-to-r from-[#0066FF] to-[#00B3FF] rounded-lg flex items-center justify-center flex-shrink-0">
                   <Phone size={24} className="text-white" />
                 </div>
@@ -87,7 +87,7 @@ export default function Contact() {
             </div>
 
             <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow">
-              <div className="flex items-start gap-4">
+              <div className="flex flex-col sm:flex-row items-start gap-4">
                 <div className="w-12 h-12 bg-gradient-to-r from-[#0066FF] to-[#00B3FF] rounded-lg flex items-center justify-center flex-shrink-0">
                   <Mail size={24} className="text-white" />
                 </div>
@@ -100,7 +100,7 @@ export default function Contact() {
             </div>
 
             <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow">
-              <div className="flex items-start gap-4">
+              <div className="flex flex-col sm:flex-row items-start gap-4">
                 <div className="w-12 h-12 bg-gradient-to-r from-[#0066FF] to-[#00B3FF] rounded-lg flex items-center justify-center flex-shrink-0">
                   <MapPin size={24} className="text-white" />
                 </div>
@@ -112,9 +112,14 @@ export default function Contact() {
               </div>
             </div>
 
-            <div className="rounded-2xl overflow-hidden shadow-lg h-64">
-              
-             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d664.8171395945969!2d105.84350316737968!3d21.00295531066523!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ac773026b415%3A0x499b8b613889f78a!2zVHLGsOG7nW5nIMSQ4bqhaSBI4buNYyBYw6J5IEThu7FuZyBIw6AgTuG7mWkgLSBIVUNF!5e0!3m2!1svi!2s!4v1763831230753!5m2!1svi!2s" width="600" height="450" style={{ border: 0 }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+            <div className="rounded-2xl overflow-hidden shadow-lg h-64 sm:h-80">
+              <iframe
+                className="w-full h-full border-0"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d664.8171395945969!2d105.84350316737968!3d21.00295531066523!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ac773026b415%3A0x499b8b613889f78a!2zVHLGsOG7nW5nIMSQ4bqhaSBI4buNYyBYw6J5IEThu7FuZyBIw6AgTuG7mWkgLSBIVUNF!5e0!3m2!1svi!2s!4v1763831230753!5m2!1svi!2s"
+                title="MHBTOUR location map"
+                allowFullScreen
+                referrerPolicy="no-referrer-when-downgrade"
+              ></iframe>
             </div>
           </div>
         </div>
