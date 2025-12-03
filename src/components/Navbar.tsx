@@ -29,17 +29,21 @@ export default function Navbar() {
     >
       <div className="container mx-auto px-6 flex items-center justify-between">
         <div
-          className="logo text-3xl font-bold tracking-widest cursor-pointer"
+          className="logo text-3xl font-black cursor-pointer transition-all duration-300 hover:scale-105"
           style={{
-            background: 'linear-gradient(135deg, #0066FF 0%, #00B3FF 100%)',
+            background: 'linear-gradient(135deg, #0066FF 0%, #00B3FF 50%, #0099FF 100%)',
             WebkitBackgroundClip: 'text',
             WebkitTextFillColor: 'transparent',
-            fontFamily: 'Montserrat, sans-serif',
-            letterSpacing: '0.15em',
+            backgroundClip: 'text',
+            fontFamily: '"Orbitron", sans-serif',
+            letterSpacing: '0.08em',
+            fontWeight: 900,
+            textShadow: '0 2px 20px rgba(0, 102, 255, 0.3)',
+            filter: 'drop-shadow(0 0 8px rgba(0, 179, 255, 0.4))',
           }}
           onClick={() => scrollToSection('home')}
         >
-          MHBTOUR
+          MHB<span style={{ color: '#00B3FF', WebkitTextFillColor: '#00B3FF' }}>•</span>TOUR
         </div>
 
         <div className="hidden md:flex items-center gap-8">
