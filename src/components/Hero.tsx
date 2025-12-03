@@ -28,22 +28,7 @@ export default function Hero() {
           className="text-5xl md:text-7xl font-bold mb-6 animate-slide-up"
           style={{ fontFamily: 'Poppins, sans-serif', animationDelay: '0.2s' }}
         >
-          Khám Phá Thế Giới Cùng{' '}
-          <span
-            style={{
-              background: 'linear-gradient(135deg, #00B3FF 0%, #0066FF 100%)',
-              WebkitBackgroundClip: 'text',
-              WebkitTextFillColor: 'transparent',
-              backgroundClip: 'text',
-              fontFamily: '"Orbitron", sans-serif',
-              letterSpacing: '0.08em',
-              fontWeight: 900,
-              textShadow: '0 4px 30px rgba(0, 179, 255, 0.5)',
-              filter: 'drop-shadow(0 0 12px rgba(0, 179, 255, 0.6))',
-            }}
-          >
-            MHB<span style={{ color: '#FFFFFF' }}>•</span>TOUR
-          </span>
+          Khám Phá Thế Giới Cùng MHBTOUR
         </h1>
         <p
           className="text-xl md:text-2xl mb-8 text-gray-200 max-w-2xl mx-auto animate-slide-up"
